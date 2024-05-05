@@ -26,3 +26,14 @@ Actions: Save the current state of the app, pause any ongoing tasks or animation
 Purpose: The app is completely closed by the user or the system.
 
 Actions: Clean up any remaining resources, unregister listeners or receivers, perform final cleanup tasks, and ensure graceful handling of app termination.
+
+## App Example 
+### Testing
+Simulate App Switching: Press the "Home" button or switch to another app to simulate the app being suspended.
+
+Resume the App: Resume the app by opening it again, and you should see that the text entered before switching away is restored.
+
+### Explaination:
+onSaveInstanceState(): This method is triggered when the app is about to be suspended. It stores the current state of the EditText into a Bundle using the putString() method.
+
+onRestoreInstanceState(): This method is triggered when the app is resumed. It retrieves the stored state from the Bundle using the getString() method and updates the EditText to reflect the saved data.
