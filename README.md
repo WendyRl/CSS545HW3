@@ -32,6 +32,7 @@ Actions: Clean up any remaining resources, unregister listeners or receivers, pe
 Simulate App Switching: Press the "Home" button or switch to another app to simulate the app being suspended.
 
 Resume the App: Resume the app by opening it again, and you should see that the text entered before switching away is restored.
+
 ![image](https://github.com/WendyRl/CSS545HW3/assets/80219810/bb820627-4823-490e-b0f2-94e18a949264)
 ![image](https://github.com/WendyRl/CSS545HW3/assets/80219810/9f0cc05e-2586-4314-b91e-d8d515a14491)
 ![image](https://github.com/WendyRl/CSS545HW3/assets/80219810/350316a2-e80e-4cd8-8e5b-051aaa6faf95)
