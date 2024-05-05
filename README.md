@@ -33,6 +33,10 @@ Simulate App Switching: Press the "Home" button or switch to another app to simu
 
 Resume the App: Resume the app by opening it again, and you should see that the text entered before switching away is restored.
 
+![image](https://github.com/WendyRl/CSS545HW3/assets/80219810/618383fd-f970-4685-aab8-bb49dc6d311b)
+![image](https://github.com/WendyRl/CSS545HW3/assets/80219810/dcb9ba30-b12d-4649-801d-ea78df552b2b)
+![image](https://github.com/WendyRl/CSS545HW3/assets/80219810/53fa8db7-30fc-48d3-af57-ea8dba65669c)
+
 ### Explaination:
 onSaveInstanceState(): This method is triggered when the app is about to be suspended. It stores the current state of the EditText into a Bundle using the putString() method.
 
